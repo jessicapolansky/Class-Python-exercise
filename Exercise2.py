@@ -13,6 +13,7 @@ while game:
         guessTracker = []
         if again == "Y":
             restart = True
+            guess = int(input("Guess my lucky number, between 1 and 10: "))
         else:
             game = False
     elif guess > 10 or guess < 1:
