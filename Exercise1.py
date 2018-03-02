@@ -7,7 +7,7 @@ nOMBRE = input("TELL ME YOUR NAME AGAIN! ")
 print("HELLO  {}! YOUR NAME HAS {} LETTER(S)!".format(nOMBRE.upper(), len(nOMBRE)))
 
 #Exercise 3. Make a madlib that turns into a horrible limerick
-print("Let's do a madlib!"
+print("Let's do a madlib!")
 destination = input("Give me a location: ")
 adjective = input("Give me an adjective: ")
 bodyPart = input("Give me a body part: ")
@@ -38,13 +38,13 @@ rating = input("Quality of service: Good, fair, or bad? ").lower()
 feedback = False
 while (feedback == False):
     if rating == "good":
-        print("Tip amount is ${}.".format(round(totalAmt * 0.20, 2)))
+        print("Tip amount is ${0:.2f}.".format(round(totalAmt * 0.20, 2)))
         feedback = True
     elif rating == "fair":
-        print("Tip amount is ${}.".format(round(totalAmt * 0.15, 2)))
+        print("Tip amount is ${0:.2f}.".format(round(totalAmt * 0.15, 2)))
         feedback = True
     elif rating == "bad":
-        print("Tip amount is ${}.".format(round(totalAmt * 0.10, 2)))
+        print("Tip amount is ${0:.2f}.".format(round(totalAmt * 0.10, 2)))
         feedback = True
     else:
         rating = input("Invalid rating. Please enter 'good,' 'fair,' or 'bad.' >> ").lower()
@@ -56,13 +56,13 @@ splitTip = int(input("Split how many ways? "))
 feedback = False
 while (feedback == False):
     if rating == "good":
-        print("Tip amount is ${}.".format(round(((totalAmt * 0.20) / splitTip), 2)))
+        print("Tip amount is ${0:.2f}.".format(round(((totalAmt * 0.20) / splitTip), 2)))
         feedback = True
     elif rating == "fair":
-        print("Tip amount is ${}.".format(round(((totalAmt * 0.15) / splitTip), 2)))
+        print("Tip amount is ${0:.2f}.".format(round(((totalAmt * 0.15) / splitTip), 2)))
         feedback = True
     elif rating == "bad":
-        print("Tip amount is ${}.".format(round(((totalAmt * 0.20) / splitTip), 2)))
+        print("Tip amount is ${0:.2f}.".format(round(((totalAmt * 0.10) / splitTip), 2)))
         feedback = True
     else:
         rating = input("Invalid rating. Please enter 'good,' 'fair,' or 'bad.' >> ").lower()
