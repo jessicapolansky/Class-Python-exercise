@@ -1,4 +1,2 @@
-# Class-Python-exercise
-THIS IS A TEST
-How about this?
-git status update?
+Basic exercises solved using Python.
+Functions, Strings, Dictionaries, and Loops used.
